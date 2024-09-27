@@ -207,7 +207,7 @@ padding: 5px 55px 0px 55px;
 
 }
 .skill {
-    display: flex;
+   
     flex-wrap: wrap;
     gap: 2rem;
     flex-direction: column;
@@ -224,6 +224,7 @@ padding: 5px 55px 0px 55px;
     text-align: center;
 }
 .skill-list{
+  
     margin: 0% 25%;
    
 }
@@ -238,7 +239,8 @@ padding: 5px 55px 0px 55px;
 .skill-name{
     font-size: 2rem;
 }
-.skill-name-box {      
+.skill-name-box {  
+        
     display: flex;
 gap: 40px;
     justify-content: center;
