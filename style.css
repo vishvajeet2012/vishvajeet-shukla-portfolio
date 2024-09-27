@@ -186,7 +186,7 @@ section{
 }
 .about {
     
-    justify-content: center;
+   
     background-color: var(--second-bg-color);
     padding: 2rem 2rem;
     border-radius: 8px;
@@ -205,17 +205,20 @@ section{
     font-size: 1.9rem;
     margin-bottom: 2rem;
     padding: 0px 15px 0px 15px;
-}
 
-.skills {
+}
+.skill {
     display: flex;
+
     flex-wrap: wrap;
     gap: 2rem;
+    flex-direction: column;
 }
 
 .skill {
-    background-color: var(--main-color);
-    color: var(--second-bg-color);
+  
+    background-color:#141414 ;
+   color: white;
     padding: 1rem 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -223,9 +226,22 @@ section{
     text-align: center;
 }
 
-.skill h4 {
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
+.skills-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+} 
+
+.skill-name{
+    font-size: 20px;
+}
+.skill-name-box {
+    display: flex;
+gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap ;
+
 }
 
 @media (max-width: 768px) {
