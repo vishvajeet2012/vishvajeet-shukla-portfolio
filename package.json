@@ -1,0 +1,18 @@
+{
+  "name": "vishu-portfolio",
+  "version": "1.0.0",
+  "description": "this is my portpolio using html css and java script",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vishvajeet-portfolio"
+  },
+  "keywords": [
+    "vishu-portfolio"
+  ],
+  "author": "vishu",
+  "license": "ISC"
+}
