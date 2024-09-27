@@ -209,7 +209,6 @@ section{
 }
 .skill {
     display: flex;
-
     flex-wrap: wrap;
     gap: 2rem;
     flex-direction: column;
@@ -224,6 +223,10 @@ section{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     flex: 1 1 calc(33% - 2rem);
     text-align: center;
+}
+.skill-list{
+    margin: 0% 25%;
+   
 }
 
 .skills-heading {
