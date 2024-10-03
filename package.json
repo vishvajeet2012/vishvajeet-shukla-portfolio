@@ -14,5 +14,8 @@
     "vishu-portfolio"
   ],
   "author": "vishu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typed.js": "^2.1.0"
+  }
 }

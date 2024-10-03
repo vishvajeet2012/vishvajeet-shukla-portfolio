@@ -113,6 +113,7 @@ section{
     animation: IMG 2s ease-in-out infinite;
 }
 
+
 @keyframes IMG {
     0% {
         transform: translateY(0);
