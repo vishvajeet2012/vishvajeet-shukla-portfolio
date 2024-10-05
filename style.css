@@ -53,7 +53,7 @@ section{
 }
 
 .logo span{
-    color: blue;
+    color: white;
 }
 
 .navbar a{
@@ -308,7 +308,9 @@ gap: 40px;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         display: none;
     }
-
+    #yearupdate {
+        color:white;
+    }
     .navbar.active{
         display: block;
     }
