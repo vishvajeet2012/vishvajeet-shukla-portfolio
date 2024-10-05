@@ -216,11 +216,11 @@ padding: 5px 55px 0px 55px;
 
 .skill {
   
-    background-color:#141414 ;
-   color: white;
+    background-color: var(--second-bg-color);  
+     color: white;
     padding: 1rem 2rem;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     flex: 1 1 calc(33% - 2rem);
     text-align: center;
 }
