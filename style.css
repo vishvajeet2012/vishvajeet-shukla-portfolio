@@ -29,7 +29,7 @@ html{
 }
 
 section{
-    min-height: 100vh;
+    
     padding: 10rem 9% 2rem;
 }
 
@@ -186,8 +186,7 @@ section{
     color: blue;
 }
 .about {
-    
-   
+    min-height: 80vh;
     background-color: var(--second-bg-color);
     padding: 2rem 2rem;
     border-radius: 8px;
@@ -208,7 +207,7 @@ padding: 5px 55px 0px 55px;
 
 }
 .skill {
-   
+    min-height: 60vh;
     flex-wrap: wrap;
     gap: 2rem;
     flex-direction: column;
