@@ -16,9 +16,16 @@ const typeed = new Typed(".text", {
 
  
 
-document.getElementById('downloadBtn').addEventListener('click', function() {
-  const link = document.createElement('a');
-  link.href = './media/resume/vishu-resumeg.pdf'; 
-  link.download = 'vishvajeet-resume'; 
-  link.click(); 
-});
+// document.getElementById('downloadBtn').addEventListener('click', function() {
+//   const link = document.createElement('a');
+//   link.href = './media/resume/vishu-resumeg.pdf'; 
+//   link.download = 'vishvajeet-resume'; 
+//   link.click(); 
+// });
+
+
+let YearUpdate = document.getElementById('yearupdate')
+let date = new Date()
+let time =date.getFullYear()
+    YearUpdate.innerText = time
+    console.log(YearUpdate.innerText)
