@@ -170,6 +170,7 @@ section{
 }
 
 .footer{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,6 +194,34 @@ section{
     border-radius: 8px;
     /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
 }
+.socialconnect{
+    display: flex;
+gap: 10px;
+
+}
+.socialconnect-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    width: 4rem;
+    height: 4rem;
+color: white;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+        
+}
+.socialconnect-icon:hover{
+    transition: all 0.5s ease ;
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    
+   
+    box-shadow: 0 0 2rem var(--main-color);
+}
+
+
 
 .about-me.heading {
     font-size: 3.5rem;
