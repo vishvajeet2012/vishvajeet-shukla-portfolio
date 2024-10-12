@@ -330,6 +330,11 @@ section {
     display: none;
   }
 
+  .socialconnect {
+    float: right;
+    display: flex;
+    gap: 69px;
+  }
   .header {
     background: var(--bg-color);
   }
