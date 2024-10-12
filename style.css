@@ -333,7 +333,7 @@ section {
   .socialconnect {
     float: right;
     display: flex;
-    gap: 69px;
+    gap: 30px;
   }
   .header {
     background: var(--bg-color);
