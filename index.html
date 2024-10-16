@@ -1,97 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishvajeet Shukla</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Under Maintenance</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f9;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+      background-color: white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    p:last-child {
+      font-style: italic;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Vishvajeet</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-        </nav>
-        <a href="#" class="logo" id="logo2"><span></span></a>
-    </header>
-
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, I am</h3>
-            <h1>Vishvajeet Shukla</h1>
-            <h3>And I'm a <span class="text"></span></h3>
-            <p>Currently on a quest to conquer the MERN stack—because every great hero needs an epic origin story, and mine starts with React and a lot of coffee!</p>
-            <a href="./media/resume/vishu-resume (1).pdf" download>
-                <button id="downloadBtn" class="btn">Download CV</button>
-            </a>
-        </div>
-        <div class="social-media-icon">
-            <a href="https://www.linkedin.com/in/vishvajeet-shukla-061064285/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/vishvajeet2012" target="_blank"><i class='bx bxl-github'></i></a>
-        </div>
-        <div class="home-img">
-            <img src="./media/profile pic/vishu.jpg" alt="My Image">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-me heading">About Me</div>
-        <div class="about-content">
-            <p>Hi there! I'm Vishvajeet Shukla, a passionate MERN stack developer with a love for creating dynamic and responsive web applications. My journey began with a fascination for coding, which has transformed into a deep commitment to learning and evolving my skills.</p>
-            <br>
-            <p>I thrive on problem-solving and teamwork, believing that collaboration fuels innovation. As I explore the MERN stack, I enjoy turning ideas into reality, one line of code at a time. When I'm not coding, you might find me diving into the latest tech trends, experimenting with new tools, or sipping coffee while brainstorming my next project!</p>
-            <br>
-            <p>I’m excited about the endless possibilities in web development and look forward to making meaningful contributions to the tech community.</p>
-        </div>
-    </section>
-
-    <section class="skill" id="skills">
-        <div class="skills-heading ">My Skills</div>
-        <div class="skill-list">
-            <div class="skill-name-box">
-                <p class="skill-name">React</p>
-                <p class="skill-name">Node.js</p>
-                <p class="skill-name">Express.js</p>
-                <p class="skill-name">Redux</p>
-                <p class="skill-name">RESTful API</p>
-                <p class="skill-name">MongoDB</p>
-                <p class="skill-name">JavaScript</p>
-                <p class="skill-name">HTML & CSS</p>
-                <p class="skill-name">Canva</p>
-                <p class="skill-name">Github</p>
-                <p class="skill-name">Tailwind</p>
-                <p class="skill-name">BootStrap</p>
-            </div>
-        </div>
-    </section>
-<hr>
-    <footer class="footer">
-        <div class="socialconnect">
-            <a class="phonedial" id="callButton" title="Call Now">
-                <i class='bx bx-phone'></i> </a>
-        <a class="phonedial" href="vishvajeetshukla4711@gmail.com"><i class='bx bxs-envelope'></i></a>
-            <a href="https://www.instagram.com/vishvajitshukla/" target="_blank" class="socialconnect-icon"><i class="bx bxl-instagram"></i></a>
-            <a href="https://x.com/vishuu_js?mx=2" class="socialconnect-icon" target="_blank"><i class="bx bxl-twitter"></i></a>
-            <a href="https://github.com/vishvajeet2012" class="socialconnect-icon" target="_blank"><i class='bx bxl-github'></i></a>
-        </div>
-
-        <div class="footer-text">
-            <p>Copyright &copy; <span style="color: white;" id="yearupdate"></span> by Vishu <span></span> | All rights reserved</p>
-        </div>
-        <!-- <div class="Hireme">
-            <a class="phonedial" id="callButton" title="Call Now">
-                <i class='bx bx-phone'></i> </a>
-        <a class="phonedial" href="vishvajeetshukla4711@gmail.com"><i class='bx bxs-envelope'></i></a>
-        </div> -->
-    
-      
-    </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>We'll be back soon!</h1>
+    <p>Sorry for the inconvenience. We're performing some maintenance at the moment. We'll be back online shortly.</p>
+    <p>&mdash; Vishu</p>
+  </div>
 </body>
 </html>
