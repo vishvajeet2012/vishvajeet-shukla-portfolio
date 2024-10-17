@@ -28,12 +28,12 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 const yearUpdate = document.getElementById('yearupdate');
 yearUpdate.innerText = new Date().getFullYear();
 
-
-const phoneNumber = "+919782744729";
+// is code me kuch changes mt krna nahi to number browser main  hi open hoga
+const vishuNumber = "+919782744729";
 const callButton = document.getElementById('callButton');
-callButton.setAttribute('href', `tel:${phoneNumber}`);
+callButton.setAttribute('href', `tel:${vishuNumber}`);
 
 
-callButton.addEventListener('click', function() {
+callButton.addEventListener('click', function() {   
    
 });
