@@ -306,8 +306,15 @@ section {
   top:10%;
   left: calc(50%-100px);
 }
+.Project-heading .project-slider .project-item{
+  position: absolute;
+  inset:0 0 0 0;
+}
 
+.Project-heading .project-slider .project-item{
+      
 
+}
 
 
 @media (max-width: 768px) {
