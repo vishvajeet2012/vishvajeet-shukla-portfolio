@@ -346,8 +346,8 @@ section {
   .project-slider {
  
     position: absolute;
-    width: 20px;  /* Adjusted width for mobile */
-    height: 20px;  /* Adjusted height for mobile */
+    width: 50px;  /* Adjusted width for mobile */
+    height: 40px;  /* Adjusted height for mobile */
     top: 310%;  /* Adjusted position for better fit */
     left: calc(50% - 100px); 
     bottom: 0;
