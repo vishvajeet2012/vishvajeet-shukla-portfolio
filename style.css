@@ -348,7 +348,7 @@ section {
     position: absolute;
     width: 20px;  /* Adjusted width for mobile */
     height: 20px;  /* Adjusted height for mobile */
-    top: 270%;  /* Adjusted position for better fit */
+    top: 290%;  /* Adjusted position for better fit */
     left: calc(50% - 100px); 
     bottom: 0;
 
