@@ -343,6 +343,13 @@ section {
   /* color: var(--second-bg-color); */
   box-shadow: 0 0 4rem var(--main-color);
 }
+.project-item:active{
+  border: 0.2rem solid var(--main-color);
+  background: var(--main-color);
+  /* color: var(--second-bg-color); */
+  box-shadow: 0 0 4rem var(--main-color);
+}
+
 
 .imgg {
   width:100%;
