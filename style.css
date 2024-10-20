@@ -333,73 +333,52 @@ section {
   object-fit: cover;
 }
 
-
-
-
-@media (max-width: 768px){
-  .Project-heading{
-    display: none;
+@media (max-width: 768px) {
+  .Project-heading {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
   }
-  .project-slider{
-    display: none;
 
+
+  .project-slider {
+    position: absolute;
+    width: 40px;  /* Adjusted width for mobile */
+    height: 120px;  /* Adjusted height for mobile */
+    top: 390%;  /* Adjusted position for better fit */
+    right: 5%;  /* Adjusted right for mobile */
+    bottom: 0;
+    left: calc(50% - 80px);  /* Adjusted to match new width */
+    transform-style: preserve-3d;
+    transform: perspective(800px); /* Reduced perspective slightly for mobile */
+    animation: autoRun 15s linear infinite; /* Slightly faster animation */
   }
-  .project-item{
-    display: none;
+
+  @keyframes autoRun {
+    from {
+      transform: rotateX(3deg) rotateY(0deg);  /* Reduced X-axis rotation */
+    }
+    to {
+      transform: rotateX(1deg) rotateY(360deg); /* Smooth Y-axis rotation */
+    }
   }
-  .imgg{
-    display: none;
+
+  .project-item {
+    position: absolute;
+    inset: 0;
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+               translateZ(450px); /* Reduced Z-translation for smaller screens */
   }
-}
 
-
-.Project-heading {
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.project-slider {
-  position: absolute;
-  width: 100px;
-  height: 150px;
-  top: 50%; /* Adjusted to center vertically */
-  right: 10%;
-  bottom: 0;
-  left: calc(50% - 50px); /* Centering the slider */
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
-  animation: autoRun 20s linear infinite;
-}
-
-@keyframes autoRun {
-  from {
-    transform: rotateX(5deg) rotateY(0deg);
+  .imgg {
+    width: 100%;
+    border-radius: 50%; /* Slightly less rounding for a better fit */
+    object-fit: cover;
   }
-  to {
-    transform: rotateX(1deg) rotateY(360deg);
-  }
+
 }
-
-.project-item {
-  position: absolute;
-  inset: 0;
-  transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-             translateZ(550px);
-}
-
-.imgg {
-  width: 100%;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-
-
-
-
 @media (max-width: 768px) {
   .skill {
     flex: 1 1 calc(50% - 2rem);
