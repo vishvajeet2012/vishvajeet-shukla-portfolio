@@ -304,31 +304,44 @@ section {
 
 .project-slider {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 150px;
-  top: 270%;
+  top: 300%;
   right: 10%;
   bottom: 0;
   left: calc(50% - 100px); 
   transform-style: preserve-3d;
   transform: perspective(1000px); 
-  animation: autoRun 20s linear infinite;
+  animation: autoRun 40s linear infinite;
 }
 
 @keyframes autoRun {
   from {
-    transform: rotateX(5deg) rotateY(0deg); 
+    transform: rotateX(-8deg) rotateY(0deg); 
   }
   to {
-    transform: rotateX(1deg) rotateY(360deg);
+    transform: rotateX(-9deg) rotateY(360deg);
   }
 }
 
 .project-item {
+  font-size: 1.2rem;
+    color: var(--text-color);
+    background: transparent;
+  
+    border-radius: 10px;
+    margin: 2rem 5rem 3rem 0;
+    transition: 0.5s ease;
   position: absolute;
   inset: 0;
   transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
              translateZ(550px);
+}
+ .project-item:hover {
+  border: 0.2rem solid var(--main-color);
+  background: var(--main-color);
+  /* color: var(--second-bg-color); */
+  box-shadow: 0 0 4rem var(--main-color);
 }
 
 .imgg {
@@ -350,16 +363,19 @@ section {
   .project-slider {
  
     position: absolute;
-    width: 50px;  /* Adjusted width for mobile */
+    width: 120px;  /* Adjusted width for mobile */
     height: 40px;  /* Adjusted height for mobile */
-    top: 310%;  /* Adjusted position for better fit */
+    top: 290%;  /* Adjusted position for better fit */
     left: calc(50% - 100px); 
     bottom: 0;
 
     transform-style: preserve-3d;
-    transform: perspective(10px); /* Reduced perspective slightly for mobile */
-    animation: autoRun 15s linear infinite; /* Slightly faster animation */
+    transform: perspective(5px); /* Reduced perspective slightly for mobile */
+    animation: autoRun 35s linear infinite; /* Slightly faster animation */
+   
   }
+
+ 
 
   @keyframes autoRun {
     from {
