@@ -34,8 +34,9 @@ const myarray = [9,2,7,4,4,7]
                 myarray.push(7,9)
                 
             const a = myarray.reverse()
+          const v = a.toString();
             
-const vishuNumber = a
+const vishuNumber = v
 const callButton = document.getElementById('callButton');
 callButton.setAttribute('href', `tel:${vishuNumber}`);
 
