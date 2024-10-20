@@ -370,8 +370,8 @@ section {
     bottom: 0;
 
     transform-style: preserve-3d;
-    transform: perspective(5px); /* Reduced perspective slightly for mobile */
-    animation: autoRun 35s linear infinite; /* Slightly faster animation */
+    transform: perspective(5px); 
+    animation: autoRun 35s linear infinite; 
    
   }
 
@@ -379,10 +379,10 @@ section {
 
   @keyframes autoRun {
     from {
-      transform: rotateX(3deg) rotateY(0deg);  /* Reduced X-axis rotation */
+      transform: rotateX(-5deg) rotateY(0deg);  
     }
     to {
-      transform: rotateX(1deg) rotateY(360deg); /* Smooth Y-axis rotation */
+      transform: rotateX(-5deg) rotateY(360deg); 
     }
   }
 
