@@ -311,8 +311,10 @@ section {
   inset:0 0 0 0;
 }
 
-.Project-heading .project-slider .project-item{
-      
+.Project-heading .project-slider .project-item img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
 
 }
 
