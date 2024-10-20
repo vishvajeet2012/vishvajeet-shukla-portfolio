@@ -289,6 +289,14 @@ section {
   flex-wrap: wrap;
 }
 
+
+.Project-heading
+{
+  width: 100%;
+}
+
+
+
 @media (max-width: 768px) {
   .skill {
     flex: 1 1 calc(50% - 2rem);
