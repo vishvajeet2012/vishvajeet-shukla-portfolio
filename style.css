@@ -365,7 +365,7 @@ section {
     position: absolute;
     width: 120px;  /* Adjusted width for mobile */
     height: 40px;  /* Adjusted height for mobile */
-    top: 290%;  /* Adjusted position for better fit */
+    top: 310%;  /* Adjusted position for better fit */
     left: calc(50% - 100px); 
     bottom: 0;
 
