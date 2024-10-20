@@ -344,15 +344,16 @@ section {
 
 
   .project-slider {
+ 
     position: absolute;
-    width: 40px;  /* Adjusted width for mobile */
-    height: 120px;  /* Adjusted height for mobile */
-    top: 390%;  /* Adjusted position for better fit */
-    right: 5%;  /* Adjusted right for mobile */
+    width: 20px;  /* Adjusted width for mobile */
+    height: 20px;  /* Adjusted height for mobile */
+    top: 270%;  /* Adjusted position for better fit */
+    left: calc(50% - 100px); 
     bottom: 0;
-    left: calc(50% - 80px);  /* Adjusted to match new width */
+
     transform-style: preserve-3d;
-    transform: perspective(800px); /* Reduced perspective slightly for mobile */
+    transform: perspective(10px); /* Reduced perspective slightly for mobile */
     animation: autoRun 15s linear infinite; /* Slightly faster animation */
   }
 
@@ -369,7 +370,7 @@ section {
     position: absolute;
     inset: 0;
     transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-               translateZ(450px); /* Reduced Z-translation for smaller screens */
+               translateZ(190px); /* Reduced Z-translation for smaller screens */
   }
 
   .imgg {
