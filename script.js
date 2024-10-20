@@ -29,18 +29,26 @@ const yearUpdate = document.getElementById('yearupdate');
 yearUpdate.innerText = new Date().getFullYear();
 
 // is code me kuch changes mt krna nahi to number browser main  hi open hoga
-const myarray = [9,2,7,4,4,7]
-                myarray.push(2,8)
-                myarray.push(7,9)
-                
-            const a = myarray.reverse()
-          const v = a.toString();
-            
-const vishuNumber = v
+const myarray = [9, 2, 7, 4, 4, 7];
+
+myarray.push(2, 8);
+myarray.push(7, 9);
+
+const a = myarray.reverse();
+
+const v = a.toString();
+
+
+console.log(v);
+
+const vishuNumber = v;
+
+
 const callButton = document.getElementById('callButton');
 callButton.setAttribute('href', `tel:${vishuNumber}`);
 
 
-callButton.addEventListener('click', function() {   
-   
+callButton.addEventListener('click', function() {
+    console.log(`Calling ${vishuNumber}`); 
 });
+
