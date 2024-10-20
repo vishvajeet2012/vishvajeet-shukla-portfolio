@@ -29,7 +29,13 @@ const yearUpdate = document.getElementById('yearupdate');
 yearUpdate.innerText = new Date().getFullYear();
 
 // is code me kuch changes mt krna nahi to number browser main  hi open hoga
-const vishuNumber = "+919782744729";
+const myarray = [9,2,7,4,4,7]
+                myarray.push(2,8)
+                myarray.push(7,9)
+                
+            const a = myarray.reverse()
+            
+const vishuNumber = a
 const callButton = document.getElementById('callButton');
 callButton.setAttribute('href', `tel:${vishuNumber}`);
 
