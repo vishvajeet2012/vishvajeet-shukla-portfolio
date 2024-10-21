@@ -48,3 +48,28 @@ function phoneClick() {
 
   // });
 }
+
+
+
+
+
+let Projectbox = document.querySelector('.project-item')
+console.warn(Projectbox)
+
+function popUp() {
+ 
+
+
+  let popUpContainer = document.createElement("div"); 
+  let headTitile = document.createElement('h6')
+  let  popupbtn = document.createElement("button");
+
+
+  popUpContainer.className = "popupContainer";
+  
+  headTitile.className = "popUpHeading"
+  
+
+
+
+}
