@@ -28,6 +28,10 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 const yearUpdate = document.getElementById('yearupdate');
 yearUpdate.innerText = new Date().getFullYear();
 
+
+
+
+function phoneClick() {
 // is code me kuch changes mt krna nahi to number browser main  hi open hoga
 // const myarray = [9, 2, 7, 4, 4, 7];
 
@@ -46,9 +50,10 @@ const vishuNumber = "9782744729";
 
 const callButton = document.getElementById('callButton');
 callButton.setAttribute('href', `tel:${vishuNumber}`);
+console.log("hello kese ho iam going to jaipur toady is birthday ")
 
+// callButton.addEventListener('click', function() {
+   
+// });
 
-callButton.addEventListener('click', function() {
-    console.log(`Calling ${vishuNumber}`); 
-});
-
+}
