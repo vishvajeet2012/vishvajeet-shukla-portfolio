@@ -405,6 +405,23 @@ section {
     border-radius: 50%; /* Slightly less rounding for a better fit */
     object-fit: cover;
   }
+  .viewallbtn{
+    display: inline-block;
+  padding: 1.5rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 3rem;
+  box-shadow: 0 0 2rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  font-weight: 600;
+  transition: 0.8s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  }
+
+
 
 }
 @media (max-width: 768px) {
