@@ -50,7 +50,6 @@ const vishuNumber = "9782744729";
 
 const callButton = document.getElementById('callButton');
 callButton.setAttribute('href', `tel:${vishuNumber}`);
-console.log("hello kese ho iam going to jaipur toady is birthday ")
 
 // callButton.addEventListener('click', function() {
    
