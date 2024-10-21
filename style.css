@@ -373,7 +373,7 @@ section {
     width: 110px;  /* Adjusted width for mobile */
     height: 40px;  /* Adjusted height for mobile */
     top: 310%;  /* Adjusted position for better fit */
-    left: calc(30% - 100px); 
+    left: calc(40% - 100px); 
     bottom: 0;
 
     transform-style: preserve-3d;
